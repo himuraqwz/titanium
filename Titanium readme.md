@@ -1,4 +1,4 @@
-# 🏋️ Titanium — Fitness Club Management System
+# Titanium — Fitness Club Management System
 
 > Full-featured web application for managing a fitness club built with Laravel 11
 
@@ -8,15 +8,14 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 <!-- 
-📸 СКРИНШОТЫ — замени плейсхолдеры на реальные скриншоты:
-Положи скрины в папку /screenshots/ в корне репозитория
+СКРИНШОТЫ 
 -->
 
 ![Dashboard Preview](screenshots/dashboard.png)
 
 ---
 
-## 📋 О проекте
+## О проекте
 
 **Titanium** — автоматизированная информационная система для управления фитнес-клубом. Система позволяет клиентам самостоятельно покупать абонементы, записываться на тренировки и отслеживать посещения. Администраторы и тренеры управляют расписанием, контролируют статистику и работают с клиентской базой.
 
@@ -24,7 +23,7 @@
 
 ---
 
-## ✨ Функционал
+## Функционал
 
 ### 👤 Клиент
 - Регистрация и авторизация
@@ -48,7 +47,7 @@
 
 ---
 
-## 🛠 Технологии
+## Технологии
 
 | Категория | Технологии |
 |-----------|-----------|
@@ -60,7 +59,7 @@
 
 ---
 
-## 🗄 База данных
+## База данных
 
 Реляционная БД из **8 нормализованных таблиц** с внешними ключами и индексами:
 
@@ -75,7 +74,7 @@
 
 ---
 
-## 📸 Скриншоты
+## Скриншоты
 
 <!-- Замени на свои скриншоты -->
 
@@ -87,48 +86,6 @@
 |:---:|:---:|
 | ![Schedule](screenshots/schedule.png) | ![Admin](screenshots/admin-dashboard.png) |
 
----
-
-## 🚀 Установка и запуск
-
-```bash
-# Клонировать репозиторий
-git clone https://github.com/himuraqwz/titanium.git
-cd titanium
-
-# Установить зависимости
-composer install
-npm install
-
-# Настроить окружение
-cp .env.example .env
-php artisan key:generate
-
-# Настроить БД в .env
-# DB_DATABASE=titanium_db
-# DB_USERNAME=root
-# DB_PASSWORD=
-
-# Миграции и сидер
-php artisan migrate --seed
-
-# Запуск
-php artisan serve
-```
-
-Открой `http://127.0.0.1:8000`
-
----
-
-## 👤 Тестовые аккаунты
-
-| Роль | Email | Пароль |
-|------|-------|--------|
-| Админ | admin@titanium.ru | admin123 |
-| Клиент | client@titanium.ru | client123 |
-| Тренер | trainer@titanium.ru | trainer123 |
-
----
 
 ## 📁 Структура проекта
 
@@ -153,13 +110,5 @@ titanium/
 │   └── layouts/              # Layouts
 └── public/css/               # Стили (DDX dark theme)
 ```
-
----
-
-## 📄 Лицензия
-
-MIT License — свободное использование.
-
----
 
 **Автор:** [Виталий Кашуба](https://github.com/himuraqwz)
